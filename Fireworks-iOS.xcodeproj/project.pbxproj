@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		988F9407146DD3B900C11DF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988F9406146DD3B800C11DF8 /* UIKit.framework */; };
+		988F9409146DD3B900C11DF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988F9408146DD3B900C11DF8 /* Foundation.framework */; };
+		988F940B146DD3B900C11DF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988F940A146DD3B900C11DF8 /* CoreGraphics.framework */; };
+		988F9411146DD3B900C11DF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 988F940F146DD3B900C11DF8 /* InfoPlist.strings */; };
+		988F9413146DD3B900C11DF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 988F9412146DD3B900C11DF8 /* main.m */; };
+		988F9417146DD3B900C11DF8 /* TWFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 988F9416146DD3B900C11DF8 /* TWFAppDelegate.m */; };
+		988F941A146DD3B900C11DF8 /* TWFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988F9419146DD3B900C11DF8 /* TWFViewController.m */; };
+		988F941D146DD3B900C11DF8 /* TWFViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988F941B146DD3B900C11DF8 /* TWFViewController_iPhone.xib */; };
+		988F9420146DD3B900C11DF8 /* TWFViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988F941E146DD3B900C11DF8 /* TWFViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		988F9402146DD3B800C11DF8 /* Fireworks-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fireworks-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		988F9406146DD3B800C11DF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		988F9408146DD3B900C11DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		988F940A146DD3B900C11DF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		988F940E146DD3B900C11DF8 /* Fireworks-iOS-Info.plist */ = {isa = PBXFileReference; path = "Fireworks-iOS-Info.plist"; sourceTree = "<group>"; };
+		988F9410146DD3B900C11DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		988F9412146DD3B900C11DF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		988F9414146DD3B900C11DF8 /* Fireworks-iOS-Prefix.pch */ = {isa = PBXFileReference; path = "Fireworks-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		988F9415146DD3B900C11DF8 /* TWFAppDelegate.h */ = {isa = PBXFileReference; path = TWFAppDelegate.h; sourceTree = "<group>"; };
+		988F9416146DD3B900C11DF8 /* TWFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWFAppDelegate.m; sourceTree = "<group>"; };
+		988F9418146DD3B900C11DF8 /* TWFViewController.h */ = {isa = PBXFileReference; path = TWFViewController.h; sourceTree = "<group>"; };
+		988F9419146DD3B900C11DF8 /* TWFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWFViewController.m; sourceTree = "<group>"; };
+		988F941C146DD3B900C11DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWFViewController_iPhone.xib; sourceTree = "<group>"; };
+		988F941F146DD3B900C11DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWFViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		988F93FF146DD3B800C11DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988F9407146DD3B900C11DF8 /* UIKit.framework in Frameworks */,
+				988F9409146DD3B900C11DF8 /* Foundation.framework in Frameworks */,
+				988F940B146DD3B900C11DF8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		988F93F7146DD3B800C11DF8 = {
+			isa = PBXGroup;
+			children = (
+				988F940C146DD3B900C11DF8 /* Fireworks-iOS */,
+				988F9405146DD3B800C11DF8 /* Frameworks */,
+				988F9403146DD3B800C11DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		988F9403146DD3B800C11DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				988F9402146DD3B800C11DF8 /* Fireworks-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988F9405146DD3B800C11DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				988F9406146DD3B800C11DF8 /* UIKit.framework */,
+				988F9408146DD3B900C11DF8 /* Foundation.framework */,
+				988F940A146DD3B900C11DF8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		988F940C146DD3B900C11DF8 /* Fireworks-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				988F9415146DD3B900C11DF8 /* TWFAppDelegate.h */,
+				988F9416146DD3B900C11DF8 /* TWFAppDelegate.m */,
+				988F9418146DD3B900C11DF8 /* TWFViewController.h */,
+				988F9419146DD3B900C11DF8 /* TWFViewController.m */,
+				988F941B146DD3B900C11DF8 /* TWFViewController_iPhone.xib */,
+				988F941E146DD3B900C11DF8 /* TWFViewController_iPad.xib */,
+				988F940D146DD3B900C11DF8 /* Supporting Files */,
+			);
+			path = "Fireworks-iOS";
+			sourceTree = "<group>";
+		};
+		988F940D146DD3B900C11DF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				988F940E146DD3B900C11DF8 /* Fireworks-iOS-Info.plist */,
+				988F940F146DD3B900C11DF8 /* InfoPlist.strings */,
+				988F9412146DD3B900C11DF8 /* main.m */,
+				988F9414146DD3B900C11DF8 /* Fireworks-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		988F9401146DD3B800C11DF8 /* Fireworks-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988F9423146DD3B900C11DF8 /* Build configuration list for PBXNativeTarget "Fireworks-iOS" */;
+			buildPhases = (
+				988F93FE146DD3B800C11DF8 /* Sources */,
+				988F93FF146DD3B800C11DF8 /* Frameworks */,
+				988F9400146DD3B800C11DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fireworks-iOS";
+			productName = "Fireworks-iOS";
+			productReference = 988F9402146DD3B800C11DF8 /* Fireworks-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		988F93F9146DD3B800C11DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 988F93FC146DD3B800C11DF8 /* Build configuration list for PBXProject "Fireworks-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 988F93F7146DD3B800C11DF8;
+			productRefGroup = 988F9403146DD3B800C11DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				988F9401146DD3B800C11DF8 /* Fireworks-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		988F9400146DD3B800C11DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988F9411146DD3B900C11DF8 /* InfoPlist.strings in Resources */,
+				988F941D146DD3B900C11DF8 /* TWFViewController_iPhone.xib in Resources */,
+				988F9420146DD3B900C11DF8 /* TWFViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		988F93FE146DD3B800C11DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988F9413146DD3B900C11DF8 /* main.m in Sources */,
+				988F9417146DD3B900C11DF8 /* TWFAppDelegate.m in Sources */,
+				988F941A146DD3B900C11DF8 /* TWFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		988F940F146DD3B900C11DF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988F9410146DD3B900C11DF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		988F941B146DD3B900C11DF8 /* TWFViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988F941C146DD3B900C11DF8 /* en */,
+			);
+			name = TWFViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		988F941E146DD3B900C11DF8 /* TWFViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988F941F146DD3B900C11DF8 /* en */,
+			);
+			name = TWFViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		988F9421146DD3B900C11DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		988F9422146DD3B900C11DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		988F9424146DD3B900C11DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fireworks-iOS/Fireworks-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Fireworks-iOS/Fireworks-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		988F9425146DD3B900C11DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fireworks-iOS/Fireworks-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Fireworks-iOS/Fireworks-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		988F93FC146DD3B800C11DF8 /* Build configuration list for PBXProject "Fireworks-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988F9421146DD3B900C11DF8 /* Debug */,
+				988F9422146DD3B900C11DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988F9423146DD3B900C11DF8 /* Build configuration list for PBXNativeTarget "Fireworks-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988F9424146DD3B900C11DF8 /* Debug */,
+				988F9425146DD3B900C11DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 988F93F9146DD3B800C11DF8 /* Project object */;
+}
