@@ -14,7 +14,7 @@
 @interface TWFViewController : UIViewController
 {
     UIView *backView;
-    CALayer *rootLayer;
+	
 	CAEmitterLayer *mortor;
 }
 

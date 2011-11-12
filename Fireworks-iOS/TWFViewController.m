@@ -36,8 +36,8 @@
     [self.view addGestureRecognizer:tapGesture];
     
     //Create the root layer
-	rootLayer = [CALayer layer];
-    rootLayer.bounds = CGRectMake(0, 0, 640, 480);
+	CALayer *rootLayer = [CALayer layer];
+    rootLayer.bounds = self.view.bounds; //CGRectMake(0, 0, 640, 480);
     rootLayer.backgroundColor = [UIColor blackColor].CGColor;
     
     mortor = [CAEmitterLayer layer];
@@ -45,7 +45,7 @@
 	//Set the view's layer to the base layer
     [rootLayer addSublayer:mortor];
     [backView.layer addSublayer:rootLayer];
-    
+
 }
 
 - (void)tapGesture:(UITapGestureRecognizer*)gesture
@@ -55,7 +55,7 @@
 
 - (void)addParticlesWithPoint:(CGPoint)point
 {
-    
+   
     CGPoint originalPoint = CGPointMake(CGRectGetMaxX(backView.bounds),
                                         CGRectGetMaxY(backView.bounds));
     

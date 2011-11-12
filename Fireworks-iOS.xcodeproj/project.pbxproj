@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982E8616146DF6AF00ADC1BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982E8615146DF6AF00ADC1BB /* QuartzCore.framework */; };
 		988F9407146DD3B900C11DF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988F9406146DD3B800C11DF8 /* UIKit.framework */; };
 		988F9409146DD3B900C11DF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988F9408146DD3B900C11DF8 /* Foundation.framework */; };
 		988F940B146DD3B900C11DF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988F940A146DD3B900C11DF8 /* CoreGraphics.framework */; };
@@ -16,10 +17,10 @@
 		988F941A146DD3B900C11DF8 /* TWFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988F9419146DD3B900C11DF8 /* TWFViewController.m */; };
 		988F941D146DD3B900C11DF8 /* TWFViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988F941B146DD3B900C11DF8 /* TWFViewController_iPhone.xib */; };
 		988F9420146DD3B900C11DF8 /* TWFViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988F941E146DD3B900C11DF8 /* TWFViewController_iPad.xib */; };
-		98B549F6146DF9BA0006B92D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B549F5146DF9BA0006B92D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		982E8615146DF6AF00ADC1BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		988F9402146DD3B800C11DF8 /* Fireworks-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fireworks-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		988F9406146DD3B800C11DF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		988F9408146DD3B900C11DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,7 +35,6 @@
 		988F9419146DD3B900C11DF8 /* TWFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWFViewController.m; sourceTree = "<group>"; };
 		988F941C146DD3B900C11DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWFViewController_iPhone.xib; sourceTree = "<group>"; };
 		988F941F146DD3B900C11DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWFViewController_iPad.xib; sourceTree = "<group>"; };
-		98B549F5146DF9BA0006B92D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98B549F6146DF9BA0006B92D /* QuartzCore.framework in Frameworks */,
+				982E8616146DF6AF00ADC1BB /* QuartzCore.framework in Frameworks */,
 				988F9407146DD3B900C11DF8 /* UIKit.framework in Frameworks */,
 				988F9409146DD3B900C11DF8 /* Foundation.framework in Frameworks */,
 				988F940B146DD3B900C11DF8 /* CoreGraphics.framework in Frameworks */,
@@ -55,7 +55,7 @@
 		988F93F7146DD3B800C11DF8 = {
 			isa = PBXGroup;
 			children = (
-				98B549F5146DF9BA0006B92D /* QuartzCore.framework */,
+				982E8615146DF6AF00ADC1BB /* QuartzCore.framework */,
 				988F940C146DD3B900C11DF8 /* Fireworks-iOS */,
 				988F9405146DD3B800C11DF8 /* Frameworks */,
 				988F9403146DD3B800C11DF8 /* Products */,
