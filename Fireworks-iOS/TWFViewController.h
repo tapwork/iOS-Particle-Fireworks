@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <QuartzCore/CoreAnimation.h>
+
 
 @interface TWFViewController : UIViewController
+{
+    UIView *backView;
+    CALayer *rootLayer;
+	CAEmitterLayer *mortor;
+}
+
+- (void)addParticlesWithPoint:(CGPoint)point;
 
 @end
