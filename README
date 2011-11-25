@@ -1,0 +1,7 @@
+iOS 5 now supports CAEmitterCell in Core Animation
+This example shows a simple particle firework with the CAEmitterCell
+
+The app reacts on touches. Try it out
+
+the code is adopted from Apple's OSX Particle Example
+
