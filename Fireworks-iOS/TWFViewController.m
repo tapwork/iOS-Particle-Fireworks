@@ -10,19 +10,11 @@
 
 @implementation TWFViewController
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
-
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    
     self.view.backgroundColor = [UIColor blackColor];
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
@@ -42,7 +34,7 @@
     
     mortor = [CAEmitterLayer layer];
     
-	//Set the view's layer to the base layer
+    //Set the view's layer to the base layer
     [rootLayer addSublayer:mortor];
     [backView.layer addSublayer:rootLayer];
 
@@ -55,7 +47,6 @@
 
 - (void)addParticlesWithPoint:(CGPoint)point
 {
-   
     CGPoint originalPoint = CGPointMake(CGRectGetMaxX(backView.bounds),
                                         CGRectGetMaxY(backView.bounds));
     
@@ -150,48 +141,8 @@
 	preSpark.emitterCells = [NSArray arrayWithObjects:spark, nil];
 	rocket.emitterCells = [NSArray arrayWithObjects:flare, firework, preSpark, nil];
 	mortor.emitterCells = [NSArray arrayWithObjects:rocket, nil];
-	
-	
-    //Force the view to update
+
 	[backView setNeedsDisplay];
-}
-
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
-    }
 }
 
 @end
